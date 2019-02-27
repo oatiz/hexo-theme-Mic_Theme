@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/image/brick.png"
+    favicon: "/img/brick.png"
     keywords: oatiz
-    backgroundpic : "image/bg.jpg"
+    backgroundpic : "img/bg.jpg"
 
 Intro:
     name: oatiz
@@ -17,7 +17,7 @@ Nav:
     Home_name: 主页
     is_use_categories : true 
     categories_name: 分类
-    is_use_archives : false
+    is_use_archives : true
     archives_name: 归档
     
     #Social
@@ -31,8 +31,8 @@ Nav:
             link: "/about/"
         团队 :
             link: "/group/"
-        图库 :
-            link: "/gallery/"
+        #图库 :
+            #link: "/gallery/"
         标签:
             link: "/tag/"
         #自定义标签名
